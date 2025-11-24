@@ -1,0 +1,15 @@
+.mascota {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  width: 64px;
+  height: 64px;
+  pointer-events: none; /* La mascota no bloquea clics */
+  transition: transform 0.15s cubic-bezier(.25,1.25,.45,.95);
+  z-index: 9999;
+}
+.emoji {
+  font-size: 60px;
+  display: block;
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));
+}
